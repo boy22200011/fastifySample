@@ -1,0 +1,23 @@
+{
+  "name": "fastifysample",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "fastify": "^5.1.0",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
